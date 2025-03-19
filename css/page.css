@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.top-bar {
+    background-color: #3a3f51;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+}
+.top-bar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.top-bar .contact-info {
+    display: flex;
+    align-items: center;
+}
+.top-bar .contact-info i {
+    margin-right: 5px;
+}
+.top-bar .contact-info span {
+    margin-right: 15px;
+}
+.top-bar .user-links a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+.header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+.header .logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+.header .logo h1 {
+    font-size: 14px;
+    margin: 0;
+}
+.header .logo p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+}
+.header .search-bar {
+    display: flex;
+    align-items: center;
+}
+.header .search-bar input {
+    padding: 10px;
+    border: 1px solid #eaeaea;
+    border-right: none;
+    width: 300px;
+}
+.header .search-bar button {
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.header .cart {
+    display: flex;
+    align-items: center;
+}
+.header .cart i {
+    font-size: 24px;
+    margin-right: 5px;
+}
+.header .cart .cart-count {
+    background-color: #f44336;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+    margin-left: -10px;
+    margin-right: 10px;
+}
+.nav-bar {
+    background-color: white;
+    padding: 10px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+.nav-bar .container {
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav-bar a {
+    color: #333;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.nav-bar a:hover {
+    color: #f44336;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.hero img {
+    width: 100%;
+    /* height: auto; */
+}
+.hero .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    color: black;
+}
+.hero .hero-text h1 {
+    font-size: 180px;
+    margin: 0;
+    text-align: end;
+}
+.hero .hero-text p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.hero .hero-text button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.Saller {
+    
+    margin: 0 auto;
+    text-align: center;
+}
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.title span {
+    color: red;
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: red;
+    margin: 5px auto 0;
+}
+.products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.product {
+    width: 23%;
+    margin-bottom: 20px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.product-price .new-price {
+    color: red;
+    margin-left: 5px;
+}
+.footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+.footer .container01 {
+    display: flex;
+    justify-content: space-around;
+}
+.footer h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.footer p, .footer ul, .footer li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #777;
+}
+.footer ul {
+    padding-left: 0;
+}
+.footer li {
+    margin-bottom: 10px;
+}
+.footer .contact-info i {
+    color: red;
+    margin-right: 10px;
+}
+.footer-bottom {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer-bottom a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
